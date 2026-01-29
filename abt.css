@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position: fixed;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #e9dec2;
+    overflow: hidden;
+    margin-top: 1px;
+    box-shadow: 0 2px 8px darkgray;
+    z-index: 1000;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding: 16px 100px;
+}
+li a:hover{
+    background-color: black;
+    color: #e9dec2;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+.header h1{
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold;
+    color:  #E3B43C;
+    letter-spacing: 2px;
+}
+.header p{
+    font-size: 20px;
+    margin: 0;
+    color: #000;
+    letter-spacing: 1px;
+}
+.icons {
+    display: flex;
+}
+.icons a{
+    color: rgb(88, 88, 88);
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    /* transition: color 0.3s ease; */
+}
+.icons a:hover{
+    color: #000;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-right input {
+    padding: 5px 10px;
+    border: 0px solid #e9dec2;
+    border-radius: 10px;
+}
+.search input{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 300px;
+}
+.h2{
+    font-weight: bold;
+}
+body{
+    font-family: Arial, sans-serif;
+    background: #fff9f9;
+    padding-top: 240px;
+}
+.para2{
+  text-transform: uppercase;
+  font-size:  15px;
+  margin-top: 6px;
+  letter-spacing: 1px;
+  display: block;
+  width: auto;
+}
+.review {
+  padding: 12px 25px;
+  background: #E3B43C;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+.reviews textarea {
+  width: 70%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+
+}
+.video-container, .reviews, .thank-you{
+  margin: 60px auto;
+  width: 80%;
+  text-align: center;
+}
+.par {
+ text-transform: uppercase;
+  font-size:  20px;
+  margin-top: 6px;
+  letter-spacing: 1px;
+  display: block;
+  width: auto;
+}
+.vid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10px; */
+}
+.vid video{
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px darkgray;
+}
+.clr{
+    clear: both;
+    background-color: #e9dec2;
+    color: #000;
+    padding: 20px 30px;
+    text-align:center ;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
