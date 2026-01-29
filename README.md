@@ -17,7 +17,7 @@ The website presents a clean and modern UI where users can explore the brand and
 ## 🔹 Technologies Used
 - HTML5
 - CSS3
-- JavaScript (basic)
+- JavaScript (basic interactions and inline scripts)
 
 ## 🔹 Project Purpose
 This project was developed as the **final project** for the ITI course:
